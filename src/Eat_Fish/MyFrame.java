@@ -174,6 +174,7 @@ public class MyFrame extends JFrame{
 			GameUtils.level = 2;
 			myFish.level = 2;
 		} else if(GameUtils.count<=150) {
+			myFish.level = 3;
 			GameUtils.level = 3;
 		} else if(GameUtils.count<=300) {
 			GameUtils.level = 4;
